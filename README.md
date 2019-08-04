@@ -5,3 +5,6 @@
 
 
 ## JavaScript를 이용한 Prim알고리즘
+   ![image](https://user-images.githubusercontent.com/7812961/62418720-3cf71780-b6ab-11e9-944b-873b69170f75.png)
+
+   그래프 입력 방법은 `예제.txt` 확인

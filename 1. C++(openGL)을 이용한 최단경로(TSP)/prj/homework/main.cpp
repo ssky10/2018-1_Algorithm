@@ -199,14 +199,14 @@ void MyInit() {
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
 	glutInitWindowSize(1000, 500);
 	glutInitWindowPosition(100, 100);
-	glutCreateWindow("2014011005 강현석");
+	glutCreateWindow("TSP");
 	glutDisplayFunc(DoDisplay);
 	glutReshapeFunc(MyReShape);
 	glutMouseFunc(MyMouse);
 
 	GLint MyMainMenuID = glutCreateMenu(MyMainMenu);
-	glutAddMenuEntry("점 초기화", 1);
-	glutAddMenuEntry("최단 경로 그리기", 2);
+	glutAddMenuEntry("Reset All Points", 1);
+	glutAddMenuEntry("start TSP", 2);
 
 	glutAttachMenu(GLUT_RIGHT_BUTTON);
 
